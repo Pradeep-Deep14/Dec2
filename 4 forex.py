@@ -1,4 +1,4 @@
-from forex_python import CurrencyRates
+from forex_python.converter import CurrencyRates
 c=CurrencyRates()
 amount=int(input("Enter the amount : "))
 from_currency = input ("From Currency :").upper()
